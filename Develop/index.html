@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santa Reindeer Chooser</title>
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+<body>
+
+  <h1>Which Reindeer Are You?</h1>
+
+  <main>
+    <div class="questions">
+      <p>Answer the following questions, and then click Submit to find out which of Santa's Reindeer you would be:</p>
+
+      <form>
+        <div class="question-set">
+          <label class="question">What's your favorite color of those below? </label>
+          <span><input type="radio" name="favColor" value="red" /> Red</span>
+          <span><input type="radio" name="favColor" value="blue" /> Blue</span>
+          <span><input type="radio" name="favColor" value="green" /> Green</span>
+          <span><input type="radio" name="favColor" value="brown" /> Brown</span>
+          <span><input type="radio" name="favColor" value="purple" /> Purple</span>
+        </div>
+
+        <div class="question-set">
+          <label class="question">What's your favorite sport of those below? </label>
+          <span><input type="radio" name="favSport" value="none" /> I hate sports!</span>
+          <span><input type="radio" name="favSport" value="baseball" /> Baseball</span>
+          <span><input type="radio" name="favSport" value="football" /> Football</span>
+          <span><input type="radio" name="favSport" value="hockey" /> Hockey</span>
+          <span><input type="radio" name="favSport" value="basketball" /> Basketball</span>
+        </div>
+
+        <div class="question-set">
+          <label class="question">What's your favorite holiday cookie of those below? </label>
+          <span><input type="radio" name="favCookie" value="oatmeal" /> Oatmeal</span>
+          <span><input type="radio" name="favCookie" value="chocolate"  /> Chocolate Chip</span>
+          <span><input type="radio" name="favCookie" value="snickerdoodle" /> Snickerdoodle</span>
+          <span><input type="radio" name="favCookie" value="sugar" /> Sugar</span>
+          <span><input type="radio" name="favCookie" value="raisin" /> Raisin</span>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="result">
+      <div class="result-content">
+        <h2 class="answer-here"></h2>
+      </div>
+    </div>
+
+  </main>
+
+
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+:root {
+  --gary-green: rgb(66, 75, 50);
+}
+
+body {
+  background-color: beige;
+}
+
+p, li, label, input {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+h1 {
+  padding: 12px 18px;
+  background-color: var(--gary-green);
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: .5em;
+  text-shadow: 1px 1px 1px #333;
+}
+
+main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+main > div {
+  padding: 1em;
+}
+
+main .questions {
+  flex: 0 0 55%;
+}
+
+main .result {
+  flex: 0 0 45%;
+}
+
+.question-set {
+  margin-top: 1em;
+}
+
+.question-set span {
+  display: block;
+  padding-left: 1em;
+  margin-top: .35em;
+  margin-bottom: .45em;
+}
+
+label {
+  display: block;
+  font-style: italic;
+}
+
+label input {
+  padding-left: 0;
+  margin-left: 300px;
+}
+
+button {
+  margin-top: 1em;
+  background-color: var(--gary-green);
+  padding: .5em 1.25em;
+  color: white;
+  border-radius: 6px;
+}
+
+button:hover {
+  box-shadow: 1px 1px 12px 12px rgba(65, 69, 64, .4);
+}
+
+div.result {
+  min-height: 600px;
+  min-width: 300px;
+  background-image: url("../images/reindeer-opacity45.png");
+  background-repeat: no-repeat;
+  background-position: 80px top;
+}
+
+div.result-content {
+  display: none;
+  position: relative;
+  margin-bottom: 12em;
+  width: 95%;
+  text-align: center;
+  top: 400px;
+  left: .5em;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: .5em;
+  background-color: rgba(255, 255, 255, .75);
+}
+
+div.result-content.visible {
+  display: block;
+}
+
+div.result-content h2 {
+  font-size: 1.6rem;
+  color: red;
+}
