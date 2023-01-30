@@ -1,0 +1,15 @@
+{
+  "name": "xmas-challenge",
+  "version": "1.0.0",
+  "description": "* Here is a ful little Xmas Javascript challenge for my students. The solution is in the Main folder..",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
